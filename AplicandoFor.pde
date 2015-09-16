@@ -111,7 +111,7 @@ void draw(){
   translate(160,155);
   
   // Cambia la dirección de la cabeza según el ángulo de giro
-  if(ang <(-PI/6) || ang> PI/6){
+  if(ang <(-PI/8) || ang> PI/8){
   dir=dir*(-1);
   }
   
